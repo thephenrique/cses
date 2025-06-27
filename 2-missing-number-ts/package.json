@@ -1,0 +1,14 @@
+{
+  "name": "1-missing-number-ts",
+  "version": "0.0.1",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "run": "pnpm build && node build/main.js"
+  },
+  "packageManager": "pnpm@10.12.2",
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "typescript": "^5.8.3"
+  }
+}
